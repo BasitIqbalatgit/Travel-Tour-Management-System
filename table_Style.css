@@ -15,6 +15,27 @@
     align-items: center;
  }
 
+ header{
+  
+   position: absolute;
+   top: 1rem;
+   left: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+header #icon{
+   background-color: #fffb;
+   height: 4rem;
+   color: #ece9e9;
+   width: 4rem;
+   border-radius: 50%;
+}
+
+header #icon:hover{
+   color: #fff;
+   background-color: #000;
+}
  main.table{
     width: 82vw;
     height: 90vh;
@@ -105,4 +126,10 @@ table{
     td{
         min-width: 12.1rem;
     }
+ }
+
+ @media (max-width:960px){
+   body{
+      padding: 5rem;
+   }
  }
